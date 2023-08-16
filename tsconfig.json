@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2019",
+    "module": "commonjs",
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules", "./lib", "src/__tests__"]
+}
